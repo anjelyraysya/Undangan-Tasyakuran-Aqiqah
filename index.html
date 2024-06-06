@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Undangan Tasyakuran Aqiqah Laki</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <audio hiddden autoplay loop>
+      <source src="BacksoundTasyakuranAqiqah.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="UndanganAqiqah1">
+            <h1 class="NamaWebsite">Undangan</h1>
+            <h4 class="UndanganDigital">Tasyakuran Aqiqah</h4>
+            <img src="fotobayicowo.png" class="bayi">
+            <h2 class="NamaAnak">MUHAMMAD AKBAR</h2>
+            <h3 class="TurutMengundang">Kpd.Yth.Bapak/Ibu/Saudara/I:</h3>
+        </div>
+
+        <div class="UndanganAqiqah2">
+          <h1 class="map">Location</h1>
+          <a href="https://maps.app.goo.gl/c5WVeKoXA6VV9y8o9">
+          <img src="maps.png" class="ukuranmaps"></a>
+          <br><br>
+          <a href="https://maps.app.goo.gl/c5WVeKoXA6VV9y8o9" class="maps">Open In Google Maps</a>
+        </div>
+
+        <div class="UndanganAqiqah3">
+          <h3 class="salam">Assalamualaikum wr.wb</h3>
+          <dt>Alhamdulilah telah lahir putra pertama kami</dt>
+          <dt>pada hari dan tanggal:</dt>
+          <br><br>
+          <dt>Selasa,12 Desember 2023</dt>
+          <dt>Pukul : 08.00 WITA dan</dt>
+          <br><br>
+          <p>diberi Nama :</p>
+          <h1>MUHAMMAD AKBAR</h1>
+          <dt>Sebagai rasa syukur kami, kami mengundang</dt>
+          <dt>Bapak/Ibu/Saudara/I</dt>
+          <dt>untuk hadir dalam acara Tasyakuran Aqiqah</dt>
+          <p>pada Hari dan Tanggal :</p>
+          <dt>Selasa,14 Januari 2024</dt>
+          <dt>Jam : 10.00 WITA s/d Selesai</dt>
+          <dt>Jl.Bintara 14 RT.07/RW.09</dt>
+          <br><br>
+          <strong>Kami yang berbahagia :</strong>
+          <h1>Dewi & Juno</h1>
+        </div>
+
+        <form 
+        method="POST" 
+        action="https://script.google.com/macros/s/AKfycbxVDRLftdT_TquBn5mQi1vJdwcvUCmaetdz7SpDEf44Y0yQ6MaPRdEO-vhpZE2QgYWJ/exec" id="my-form">
+        <div class="UndanganAqiqah4">
+        <h2 class="form">Konfirmasi Kehadiran</h2>
+        <h4 class="keterangan">isi form dibawah ini</h4>
+        <label for="nama" class="form-label">Nama :</label>
+        <input type="text" class="form-control" id="nama" name="nama">
+        <br><br> 
+        <label for="jumlah" class="form-angka">Jumlah :</label>
+        <input type="number" class="form-iya" id="jumlah" name="jumlah" min="1" max="5"
+        length="1" value="1">   
+        <br><br> 
+        <label for="status" class="form-edit">Konfirmasi :</label>
+        <select name="status" id="status" class="form-select">
+        <option selected class="iya">pilih salah satu</option>
+        <option value="Hadir" class="iy">Hadir</option>
+        <option value="Tidak Hadir" class="i">Tidak Hadir</option></select>      
+      <br><br> 
+      <button class="primary">KIRIM</button>
+    </div>
+    </form>
+        <div class="UndanganAqiqah5">
+          <h1 class="foto">Galeri Foto</h1>
+          <img src="fotokeluarga1.png">
+          <br><br>
+          <img src="fotokeluarga2.png">
+        </div>
+
+
+        <div class="UndanganAqiqah6">
+          <h1 class="telpon">Contact Person</h1>
+          <h2 class="panah">⭣</h2>
+          <a href="https://wa.me/6285888761597" class="nomor">Klik Disini</a>
+        </div>
+
+        <script>
+          window.addEventListener("load", function() {
+         const form = document.getElementById('my-form');
+         form.addEventListener("submit", function(e) {
+         e.preventDefault();
+        const data = new FormData(form);
+        const action = e.target.action;
+        fetch(action, {
+          method: 'POST',
+          body: data,
+        })
+        .then(() => {
+          alert("Konfirmasi Kehadiran Sudah Berhasil!");
+        })
+      });
+    });
+        </script>
+        <div class="countdown">
+          <h1 class="namacountdown">COUNTDOWN TIMER</h1>
+          <div id="days"></div>
+          <div id="hours"></div>
+          <div id="minutes"></div>
+          <div id="seconds"></div>
+        </div></div>
+  </body>
+
+  <script src="script.js"></script>
+
+</html>

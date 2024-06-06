@@ -1,0 +1,267 @@
+body{
+    text-align: center;
+    padding: 0;
+    margin:0;
+}
+.UndanganAqiqah1{
+   
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-position: center;
+    background-image: url(temabiru.png);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.NamaWebsite{
+    font-family: fantasy;
+    font-weight: 20;
+    font-weight: bold;
+    font-size: 60px;
+    margin-left: 15px;
+    text-align: center;   
+}
+.UndanganDigital{
+    font-size: 20px;
+    margin-left: 170px;
+    padding-bottom: 2px;
+    font-family:"Times, Times New Roman, Georgia";
+    color: #004788;
+}
+.bayi{
+    padding-top: 10px ;
+}
+.NamaAnak{
+    font-size: 35px;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    color: #003285;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+.TurutMengundang{
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    font-weight: bold;
+}
+
+/**slide2**/
+
+.UndanganAqiqah2{
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url(temabiru.png);
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
+.map{
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family: 'Sacramento';
+}
+.maps{
+    padding-top: 10px;
+    border-radius: 5px;
+    background-color: #0A0E60;
+    color: aliceblue;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.maps:hover{
+    color: black;
+    background-color: blue;
+}
+.ukuranmaps{
+    margin-left: 30px;
+    width: 200px;
+    height: 500px;
+    margin-right: 35px;
+    padding-bottom: 20px;
+}
+
+/**slide3**/
+
+.UndanganAqiqah3{
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url(temabiru.png);
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.salam{
+    font-family: 'Sacramento',cursive;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+/**slide4**/
+
+.UndanganAqiqah4{
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url(temabiru.png);
+    padding-bottom: 100px;
+    padding-top: 10px;
+
+    
+}
+.form{
+    padding-top: 100px;
+    font-family: 'Sacramento',cursive;
+    font-size: 35px;
+}
+.keterangan{
+    font-size: 25px;
+}
+.form-label{
+    font-size: 25px;
+}
+.form-control{
+    font-size: 20px;
+    border-radius: 5px;
+}
+.form-angka{
+    font-size: 25px;
+}
+.form-iya{
+    font-size: 20px;
+    border-radius: 5px;
+    width: 230px;
+}
+.form-edit{
+    font-size: 24px;
+}
+.form-select{
+    font-size: 20px;
+    border-radius: 5px;
+    width: 200px;
+}
+.iya{
+    font-size: 10px;
+}
+.iy{
+    font-size: 10px;
+}
+.i{
+    font-size: 10px;
+}
+.primary{
+    font-size: 15px;
+    border-radius: 5px;
+    width: 100px;
+    color: beige;
+    background-color:#E6A4B4;
+}
+.primary:hover{
+    background-color: #E0AED0;
+    color: black;
+}
+
+/**slide5**/
+
+.UndanganAqiqah5{
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url(temabiru.png);
+    padding-bottom: 100px;
+    padding-top: 10px;
+}
+.foto{
+    padding-top: 70px;
+
+}
+
+/**slide6**/
+
+.countdown{
+   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url(temabiru.png);
+    padding-top: 100px;
+    padding-bottom: 200px;
+
+}  
+
+.namacountdown{
+    padding-bottom: 0px;
+}
+
+.countdown div {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#2A629A, #6DC5D1);
+    margin: 0 10px;
+    font-size: 3em;
+    font-weight: 500;
+    color: #fff;
+    margin: auto;
+    margin-top: 40px;
+}
+.countdown div:before{
+    content:'';
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 100px;
+    height: 50px;
+    background: #2A629A;
+    color: #fff;
+    font-size: 0.35em;
+    line-height: 35px;
+    font-weight: 300;
+}
+
+/**slide7**/
+
+.UndanganAqiqah6{
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(temabiru.png) ;
+    padding-bottom: 90px;
+}
+.telpon{
+    font-size: 60px;  
+    color: #687EFF;   
+}
+.panah{
+    font-size: 50px; 
+    color: cadetblue;
+   
+}
+.nomor{
+    font-size: 30px;
+    background-image:url(ss.png);
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.nomor:hover{
+    color:aliceblue;
+}
